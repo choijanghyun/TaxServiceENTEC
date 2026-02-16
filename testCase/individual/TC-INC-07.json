@@ -1,0 +1,97 @@
+{
+  "request": {
+    "req_id": "TCINC07",
+    "applicant_type": "P",
+    "applicant_id": "777-88-99999",
+    "applicant_name": "오벤처",
+    "tax_type": "INC",
+    "tax_year": "2024",
+    "request_date": "2025-02-10",
+    "seq_no": 1,
+    "request_status": "RECEIVED",
+    "request_source": "TEST"
+  },
+  "basic": {
+    "req_id": "TCINC07",
+    "request_date": "2025-02-10",
+    "tax_type": "INC",
+    "applicant_name": "오벤처",
+    "biz_reg_no": "777-88-99999",
+    "corp_size": "SMALL",
+    "industry_code": "58219",
+    "hq_location": "경기도 성남시 분당구 판교역로 235",
+    "capital_zone": "CAPITAL",
+    "depopulation_area": false,
+    "tax_year": "2024",
+    "fiscal_start": "2024-01-01",
+    "fiscal_end": "2024-12-31",
+    "revenue": 1000000000,
+    "taxable_income": 150000000,
+    "computed_tax": 42140000,
+    "paid_tax": 42140000,
+    "founding_date": "2020-09-01",
+    "venture_yn": true,
+    "rd_dept_yn": true,
+    "claim_reason": "벤처기업 R&D 세액공제 경정청구",
+    "sincerity_target": false,
+    "bookkeeping_type": "DOUBLE_ENTRY"
+  },
+  "employees": [
+    {
+      "year_type": "CURRENT",
+      "total_regular": 8.0,
+      "youth_count": 5,
+      "disabled_count": 0,
+      "aged_count": 0,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 3,
+      "excluded_count": 0,
+      "total_salary": 600000000,
+      "social_insurance_paid": 60000000,
+      "req_id": "TCINC07"
+    },
+    {
+      "year_type": "PREVIOUS",
+      "total_regular": 6.0,
+      "youth_count": 4,
+      "disabled_count": 0,
+      "aged_count": 0,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 2,
+      "excluded_count": 0,
+      "total_salary": 420000000,
+      "social_insurance_paid": 42000000,
+      "req_id": "TCINC07"
+    }
+  ],
+  "deductions": [
+    {
+      "item_category": "RD",
+      "provision": "조특법10",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 300000000,
+      "zone_type": null,
+      "asset_type": null,
+      "rd_type": "GENERAL",
+      "method": "CURRENT",
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCINC07"
+    }
+  ],
+  "financial": {
+    "req_id": "TCINC07",
+    "biz_income": 150000000,
+    "non_taxable_income": 5000000,
+    "loss_carryforward_total": 0,
+    "interim_prepaid_tax": 15000000,
+    "withholding_tax": 2000000,
+    "determined_tax": 42140000,
+    "inc_comprehensive_income": 150000000,
+    "inc_deduction_total": 12000000
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "request": {
+    "req_id": "TCINC02",
+    "applicant_type": "P",
+    "applicant_id": "222-33-44444",
+    "applicant_name": "이연구",
+    "tax_type": "INC",
+    "tax_year": "2024",
+    "request_date": "2025-02-10",
+    "seq_no": 1,
+    "request_status": "RECEIVED",
+    "request_source": "TEST"
+  },
+  "basic": {
+    "req_id": "TCINC02",
+    "request_date": "2025-02-10",
+    "tax_type": "INC",
+    "applicant_name": "이연구",
+    "biz_reg_no": "222-33-44444",
+    "corp_size": "SMALL",
+    "industry_code": "62010",
+    "hq_location": "서울특별시 강남구 역삼로 150",
+    "capital_zone": "CAPITAL",
+    "depopulation_area": false,
+    "tax_year": "2024",
+    "fiscal_start": "2024-01-01",
+    "fiscal_end": "2024-12-31",
+    "revenue": 2000000000,
+    "taxable_income": 300000000,
+    "computed_tax": 97940000,
+    "paid_tax": 97940000,
+    "founding_date": "2013-08-01",
+    "venture_yn": true,
+    "rd_dept_yn": true,
+    "claim_reason": "R&D 세액공제 경정청구",
+    "sincerity_target": false,
+    "bookkeeping_type": "DOUBLE_ENTRY"
+  },
+  "employees": [
+    {
+      "year_type": "CURRENT",
+      "total_regular": 15.0,
+      "youth_count": 8,
+      "disabled_count": 0,
+      "aged_count": 0,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 7,
+      "excluded_count": 1,
+      "total_salary": 900000000,
+      "social_insurance_paid": 90000000,
+      "req_id": "TCINC02"
+    },
+    {
+      "year_type": "PREVIOUS",
+      "total_regular": 13.0,
+      "youth_count": 7,
+      "disabled_count": 0,
+      "aged_count": 0,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 6,
+      "excluded_count": 1,
+      "total_salary": 750000000,
+      "social_insurance_paid": 75000000,
+      "req_id": "TCINC02"
+    }
+  ],
+  "deductions": [
+    {
+      "item_category": "RD",
+      "provision": "조특법10",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 500000000,
+      "zone_type": null,
+      "asset_type": null,
+      "rd_type": "GENERAL",
+      "method": "CURRENT",
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCINC02"
+    }
+  ],
+  "financial": {
+    "req_id": "TCINC02",
+    "biz_income": 300000000,
+    "non_taxable_income": 8000000,
+    "loss_carryforward_total": 0,
+    "interim_prepaid_tax": 40000000,
+    "withholding_tax": 5000000,
+    "determined_tax": 97940000,
+    "inc_comprehensive_income": 300000000,
+    "inc_deduction_total": 18000000
+  }
+}

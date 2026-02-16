@@ -1,0 +1,113 @@
+{
+  "request": {
+    "req_id": "TCCORP09",
+    "applicant_type": "C",
+    "applicant_id": "901-23-45678",
+    "applicant_name": "주식회사 퓨처로보틱스",
+    "tax_type": "CORP",
+    "tax_year": "2024",
+    "request_date": "2025-02-10",
+    "seq_no": 1,
+    "request_status": "RECEIVED",
+    "request_source": "TEST"
+  },
+  "basic": {
+    "req_id": "TCCORP09",
+    "request_date": "2025-02-10",
+    "tax_type": "CORP",
+    "applicant_name": "주식회사 퓨처로보틱스",
+    "biz_reg_no": "901-23-45678",
+    "corp_size": "SMALL",
+    "industry_code": "28111",
+    "hq_location": "대구광역시 달서구 성서공단로 88",
+    "capital_zone": "NON_CAPITAL",
+    "depopulation_area": false,
+    "tax_year": "2024",
+    "fiscal_start": "2024-01-01",
+    "fiscal_end": "2024-12-31",
+    "revenue": 6000000000,
+    "taxable_income": 900000000,
+    "computed_tax": 171000000,
+    "paid_tax": 171000000,
+    "founding_date": "2016-04-01",
+    "venture_yn": true,
+    "rd_dept_yn": true,
+    "claim_reason": "R&D 세액공제 이월분 + 당기분 경정청구",
+    "sincerity_target": false,
+    "bookkeeping_type": null
+  },
+  "employees": [
+    {
+      "year_type": "CURRENT",
+      "total_regular": 55.0,
+      "youth_count": 18,
+      "disabled_count": 1,
+      "aged_count": 3,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 33,
+      "excluded_count": 4,
+      "total_salary": 4000000000,
+      "social_insurance_paid": 400000000,
+      "req_id": "TCCORP09"
+    },
+    {
+      "year_type": "PREVIOUS",
+      "total_regular": 50.0,
+      "youth_count": 15,
+      "disabled_count": 1,
+      "aged_count": 3,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 31,
+      "excluded_count": 3,
+      "total_salary": 3500000000,
+      "social_insurance_paid": 350000000,
+      "req_id": "TCCORP09"
+    }
+  ],
+  "deductions": [
+    {
+      "item_category": "RD",
+      "provision": "조특법10",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 1500000000,
+      "zone_type": null,
+      "asset_type": null,
+      "rd_type": "GENERAL",
+      "method": "CURRENT",
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCCORP09"
+    },
+    {
+      "item_category": "RD",
+      "provision": "조특법10",
+      "tax_year": "2023",
+      "item_seq": 1,
+      "base_amount": 1200000000,
+      "zone_type": null,
+      "asset_type": null,
+      "rd_type": "GENERAL",
+      "method": "CURRENT",
+      "existing_applied": true,
+      "existing_amount": 50000000,
+      "carryforward_balance": 80000000,
+      "req_id": "TCCORP09"
+    }
+  ],
+  "financial": {
+    "req_id": "TCCORP09",
+    "biz_income": null,
+    "non_taxable_income": 40000000,
+    "loss_carryforward_total": 0,
+    "interim_prepaid_tax": 80000000,
+    "withholding_tax": 6000000,
+    "determined_tax": 171000000,
+    "dividend_income_total": 0,
+    "foreign_tax_total": 0,
+    "foreign_income_total": 0
+  }
+}
