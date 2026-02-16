@@ -1,0 +1,97 @@
+{
+  "request": {
+    "req_id": "TCINC03",
+    "applicant_type": "P",
+    "applicant_id": "333-44-55555",
+    "applicant_name": "박창업",
+    "tax_type": "INC",
+    "tax_year": "2024",
+    "request_date": "2025-02-10",
+    "seq_no": 1,
+    "request_status": "RECEIVED",
+    "request_source": "TEST"
+  },
+  "basic": {
+    "req_id": "TCINC03",
+    "request_date": "2025-02-10",
+    "tax_type": "INC",
+    "applicant_name": "박창업",
+    "biz_reg_no": "333-44-55555",
+    "corp_size": "SMALL",
+    "industry_code": "63111",
+    "hq_location": "광주광역시 북구 첨단과기로 123",
+    "capital_zone": "NON_CAPITAL",
+    "depopulation_area": false,
+    "tax_year": "2024",
+    "fiscal_start": "2024-01-01",
+    "fiscal_end": "2024-12-31",
+    "revenue": 800000000,
+    "taxable_income": 100000000,
+    "computed_tax": 24390000,
+    "paid_tax": 24390000,
+    "founding_date": "2022-01-10",
+    "venture_yn": true,
+    "rd_dept_yn": false,
+    "claim_reason": "창업중소기업 세액감면 경정청구",
+    "sincerity_target": false,
+    "bookkeeping_type": "DOUBLE_ENTRY"
+  },
+  "employees": [
+    {
+      "year_type": "CURRENT",
+      "total_regular": 5.0,
+      "youth_count": 3,
+      "disabled_count": 0,
+      "aged_count": 0,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 2,
+      "excluded_count": 0,
+      "total_salary": 250000000,
+      "social_insurance_paid": 25000000,
+      "req_id": "TCINC03"
+    },
+    {
+      "year_type": "PREVIOUS",
+      "total_regular": 3.0,
+      "youth_count": 2,
+      "disabled_count": 0,
+      "aged_count": 0,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 1,
+      "excluded_count": 0,
+      "total_salary": 150000000,
+      "social_insurance_paid": 15000000,
+      "req_id": "TCINC03"
+    }
+  ],
+  "deductions": [
+    {
+      "item_category": "STARTUP",
+      "provision": "조특법6",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 100000000,
+      "zone_type": "NON_CAPITAL",
+      "asset_type": null,
+      "rd_type": null,
+      "method": null,
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCINC03"
+    }
+  ],
+  "financial": {
+    "req_id": "TCINC03",
+    "biz_income": 100000000,
+    "non_taxable_income": 3000000,
+    "loss_carryforward_total": 0,
+    "interim_prepaid_tax": 10000000,
+    "withholding_tax": 1000000,
+    "determined_tax": 24390000,
+    "inc_comprehensive_income": 100000000,
+    "inc_deduction_total": 8000000
+  }
+}

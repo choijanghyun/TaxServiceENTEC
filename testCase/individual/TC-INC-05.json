@@ -1,0 +1,112 @@
+{
+  "request": {
+    "req_id": "TCINC05",
+    "applicant_type": "P",
+    "applicant_id": "555-66-77777",
+    "applicant_name": "정복합",
+    "tax_type": "INC",
+    "tax_year": "2024",
+    "request_date": "2025-02-10",
+    "seq_no": 1,
+    "request_status": "RECEIVED",
+    "request_source": "TEST"
+  },
+  "basic": {
+    "req_id": "TCINC05",
+    "request_date": "2025-02-10",
+    "tax_type": "INC",
+    "applicant_name": "정복합",
+    "biz_reg_no": "555-66-77777",
+    "corp_size": "SMALL",
+    "industry_code": "72192",
+    "hq_location": "대전광역시 유성구 과학로 125",
+    "capital_zone": "NON_CAPITAL",
+    "depopulation_area": false,
+    "tax_year": "2024",
+    "fiscal_start": "2024-01-01",
+    "fiscal_end": "2024-12-31",
+    "revenue": 3000000000,
+    "taxable_income": 400000000,
+    "computed_tax": 134940000,
+    "paid_tax": 134940000,
+    "founding_date": "2017-02-01",
+    "venture_yn": true,
+    "rd_dept_yn": true,
+    "claim_reason": "고용증대 + R&D 세액공제 복합 경정청구",
+    "sincerity_target": false,
+    "bookkeeping_type": "DOUBLE_ENTRY"
+  },
+  "employees": [
+    {
+      "year_type": "CURRENT",
+      "total_regular": 18.0,
+      "youth_count": 8,
+      "disabled_count": 0,
+      "aged_count": 1,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 9,
+      "excluded_count": 1,
+      "total_salary": 1200000000,
+      "social_insurance_paid": 120000000,
+      "req_id": "TCINC05"
+    },
+    {
+      "year_type": "PREVIOUS",
+      "total_regular": 14.0,
+      "youth_count": 5,
+      "disabled_count": 0,
+      "aged_count": 1,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 8,
+      "excluded_count": 1,
+      "total_salary": 900000000,
+      "social_insurance_paid": 90000000,
+      "req_id": "TCINC05"
+    }
+  ],
+  "deductions": [
+    {
+      "item_category": "EMPLOYMENT",
+      "provision": "조특법30의4",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 0,
+      "zone_type": "NON_CAPITAL",
+      "asset_type": null,
+      "rd_type": null,
+      "method": null,
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCINC05"
+    },
+    {
+      "item_category": "RD",
+      "provision": "조특법10",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 600000000,
+      "zone_type": null,
+      "asset_type": null,
+      "rd_type": "GENERAL",
+      "method": "CURRENT",
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCINC05"
+    }
+  ],
+  "financial": {
+    "req_id": "TCINC05",
+    "biz_income": 400000000,
+    "non_taxable_income": 12000000,
+    "loss_carryforward_total": 0,
+    "interim_prepaid_tax": 55000000,
+    "withholding_tax": 7000000,
+    "determined_tax": 134940000,
+    "inc_comprehensive_income": 400000000,
+    "inc_deduction_total": 20000000
+  }
+}

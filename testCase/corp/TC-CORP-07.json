@@ -1,0 +1,98 @@
+{
+  "request": {
+    "req_id": "TCCORP07",
+    "applicant_type": "C",
+    "applicant_id": "789-01-23456",
+    "applicant_name": "주식회사 서울커머스",
+    "tax_type": "CORP",
+    "tax_year": "2024",
+    "request_date": "2025-02-10",
+    "seq_no": 1,
+    "request_status": "RECEIVED",
+    "request_source": "TEST"
+  },
+  "basic": {
+    "req_id": "TCCORP07",
+    "request_date": "2025-02-10",
+    "tax_type": "CORP",
+    "applicant_name": "주식회사 서울커머스",
+    "biz_reg_no": "789-01-23456",
+    "corp_size": "SMALL",
+    "industry_code": "47911",
+    "hq_location": "서울특별시 구로구 디지털로26길 111",
+    "capital_zone": "CAPITAL_CONGESTION",
+    "depopulation_area": false,
+    "tax_year": "2024",
+    "fiscal_start": "2024-01-01",
+    "fiscal_end": "2024-12-31",
+    "revenue": 15000000000,
+    "taxable_income": 1500000000,
+    "computed_tax": 285000000,
+    "paid_tax": 285000000,
+    "founding_date": "2012-11-01",
+    "venture_yn": false,
+    "rd_dept_yn": false,
+    "claim_reason": "투자세액공제 경정청구 (수도권 과밀억제권역)",
+    "sincerity_target": false,
+    "bookkeeping_type": null
+  },
+  "employees": [
+    {
+      "year_type": "CURRENT",
+      "total_regular": 100.0,
+      "youth_count": 30,
+      "disabled_count": 2,
+      "aged_count": 5,
+      "career_break_count": 1,
+      "north_defector_count": 0,
+      "general_count": 62,
+      "excluded_count": 8,
+      "total_salary": 7000000000,
+      "social_insurance_paid": 700000000,
+      "req_id": "TCCORP07"
+    },
+    {
+      "year_type": "PREVIOUS",
+      "total_regular": 95.0,
+      "youth_count": 28,
+      "disabled_count": 2,
+      "aged_count": 5,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 60,
+      "excluded_count": 7,
+      "total_salary": 6500000000,
+      "social_insurance_paid": 650000000,
+      "req_id": "TCCORP07"
+    }
+  ],
+  "deductions": [
+    {
+      "item_category": "INVESTMENT",
+      "provision": "조특법24",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 3000000000,
+      "zone_type": "CAPITAL_CONGESTION",
+      "asset_type": "FACILITY",
+      "rd_type": null,
+      "method": null,
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCCORP07"
+    }
+  ],
+  "financial": {
+    "req_id": "TCCORP07",
+    "biz_income": null,
+    "non_taxable_income": 80000000,
+    "loss_carryforward_total": 0,
+    "interim_prepaid_tax": 130000000,
+    "withholding_tax": 15000000,
+    "determined_tax": 285000000,
+    "dividend_income_total": 0,
+    "foreign_tax_total": 0,
+    "foreign_income_total": 0
+  }
+}

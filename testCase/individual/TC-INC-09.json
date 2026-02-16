@@ -1,0 +1,97 @@
+{
+  "request": {
+    "req_id": "TCINC09",
+    "applicant_type": "P",
+    "applicant_id": "999-00-11111",
+    "applicant_name": "윤기한",
+    "tax_type": "INC",
+    "tax_year": "2018",
+    "request_date": "2025-02-10",
+    "seq_no": 1,
+    "request_status": "RECEIVED",
+    "request_source": "TEST"
+  },
+  "basic": {
+    "req_id": "TCINC09",
+    "request_date": "2025-02-10",
+    "tax_type": "INC",
+    "applicant_name": "윤기한",
+    "biz_reg_no": "999-00-11111",
+    "corp_size": "SMALL",
+    "industry_code": "46410",
+    "hq_location": "서울특별시 종로구 세종대로 209",
+    "capital_zone": "CAPITAL",
+    "depopulation_area": false,
+    "tax_year": "2018",
+    "fiscal_start": "2018-01-01",
+    "fiscal_end": "2018-12-31",
+    "revenue": 1200000000,
+    "taxable_income": 180000000,
+    "computed_tax": 47540000,
+    "paid_tax": 47540000,
+    "founding_date": "2008-01-15",
+    "venture_yn": false,
+    "rd_dept_yn": false,
+    "claim_reason": "고용증대 세액공제 경정청구 (2018년 귀속)",
+    "sincerity_target": false,
+    "bookkeeping_type": "DOUBLE_ENTRY"
+  },
+  "employees": [
+    {
+      "year_type": "CURRENT",
+      "total_regular": 12.0,
+      "youth_count": 4,
+      "disabled_count": 0,
+      "aged_count": 1,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 7,
+      "excluded_count": 1,
+      "total_salary": 700000000,
+      "social_insurance_paid": 70000000,
+      "req_id": "TCINC09"
+    },
+    {
+      "year_type": "PREVIOUS",
+      "total_regular": 10.0,
+      "youth_count": 3,
+      "disabled_count": 0,
+      "aged_count": 1,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 6,
+      "excluded_count": 0,
+      "total_salary": 580000000,
+      "social_insurance_paid": 58000000,
+      "req_id": "TCINC09"
+    }
+  ],
+  "deductions": [
+    {
+      "item_category": "EMPLOYMENT",
+      "provision": "조특법30의4",
+      "tax_year": "2018",
+      "item_seq": 1,
+      "base_amount": 0,
+      "zone_type": "CAPITAL",
+      "asset_type": null,
+      "rd_type": null,
+      "method": null,
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCINC09"
+    }
+  ],
+  "financial": {
+    "req_id": "TCINC09",
+    "biz_income": 180000000,
+    "non_taxable_income": 5000000,
+    "loss_carryforward_total": 0,
+    "interim_prepaid_tax": 20000000,
+    "withholding_tax": 3000000,
+    "determined_tax": 47540000,
+    "inc_comprehensive_income": 180000000,
+    "inc_deduction_total": 12000000
+  }
+}

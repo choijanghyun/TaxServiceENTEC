@@ -1,0 +1,113 @@
+{
+  "request": {
+    "req_id": "TCCORP10",
+    "applicant_type": "C",
+    "applicant_id": "012-34-56789",
+    "applicant_name": "주식회사 뉴스타트업",
+    "tax_type": "CORP",
+    "tax_year": "2024",
+    "request_date": "2025-02-10",
+    "seq_no": 1,
+    "request_status": "RECEIVED",
+    "request_source": "TEST"
+  },
+  "basic": {
+    "req_id": "TCCORP10",
+    "request_date": "2025-02-10",
+    "tax_type": "CORP",
+    "applicant_name": "주식회사 뉴스타트업",
+    "biz_reg_no": "012-34-56789",
+    "corp_size": "SMALL",
+    "industry_code": "58210",
+    "hq_location": "부산광역시 해운대구 센텀중앙로 97",
+    "capital_zone": "NON_CAPITAL",
+    "depopulation_area": false,
+    "tax_year": "2024",
+    "fiscal_start": "2024-01-01",
+    "fiscal_end": "2024-12-31",
+    "revenue": 4000000000,
+    "taxable_income": 600000000,
+    "computed_tax": 96000000,
+    "paid_tax": 96000000,
+    "founding_date": "2021-01-15",
+    "venture_yn": true,
+    "rd_dept_yn": true,
+    "claim_reason": "창업감면 + 고용증대 세액공제 최적 조합 경정청구",
+    "sincerity_target": false,
+    "bookkeeping_type": null
+  },
+  "employees": [
+    {
+      "year_type": "CURRENT",
+      "total_regular": 30.0,
+      "youth_count": 15,
+      "disabled_count": 0,
+      "aged_count": 0,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 15,
+      "excluded_count": 2,
+      "total_salary": 2000000000,
+      "social_insurance_paid": 200000000,
+      "req_id": "TCCORP10"
+    },
+    {
+      "year_type": "PREVIOUS",
+      "total_regular": 20.0,
+      "youth_count": 10,
+      "disabled_count": 0,
+      "aged_count": 0,
+      "career_break_count": 0,
+      "north_defector_count": 0,
+      "general_count": 10,
+      "excluded_count": 1,
+      "total_salary": 1200000000,
+      "social_insurance_paid": 120000000,
+      "req_id": "TCCORP10"
+    }
+  ],
+  "deductions": [
+    {
+      "item_category": "STARTUP",
+      "provision": "조특법6",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 600000000,
+      "zone_type": "NON_CAPITAL",
+      "asset_type": null,
+      "rd_type": null,
+      "method": null,
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCCORP10"
+    },
+    {
+      "item_category": "EMPLOYMENT",
+      "provision": "조특법30의4",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 0,
+      "zone_type": "NON_CAPITAL",
+      "asset_type": null,
+      "rd_type": null,
+      "method": null,
+      "existing_applied": false,
+      "existing_amount": 0,
+      "carryforward_balance": 0,
+      "req_id": "TCCORP10"
+    }
+  ],
+  "financial": {
+    "req_id": "TCCORP10",
+    "biz_income": null,
+    "non_taxable_income": 30000000,
+    "loss_carryforward_total": 0,
+    "interim_prepaid_tax": 40000000,
+    "withholding_tax": 4000000,
+    "determined_tax": 96000000,
+    "dividend_income_total": 0,
+    "foreign_tax_total": 0,
+    "foreign_income_total": 0
+  }
+}

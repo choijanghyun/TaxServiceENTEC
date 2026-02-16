@@ -1,0 +1,98 @@
+{
+  "request": {
+    "req_id": "TCCORP05",
+    "applicant_type": "C",
+    "applicant_id": "567-89-01234",
+    "applicant_name": "주식회사 글로벌반도체",
+    "tax_type": "CORP",
+    "tax_year": "2024",
+    "request_date": "2025-02-10",
+    "seq_no": 1,
+    "request_status": "RECEIVED",
+    "request_source": "TEST"
+  },
+  "basic": {
+    "req_id": "TCCORP05",
+    "request_date": "2025-02-10",
+    "tax_type": "CORP",
+    "applicant_name": "주식회사 글로벌반도체",
+    "biz_reg_no": "567-89-01234",
+    "corp_size": "LARGE",
+    "industry_code": "26110",
+    "hq_location": "서울특별시 강남구 테헤란로 152",
+    "capital_zone": "CAPITAL_CONGESTION",
+    "depopulation_area": false,
+    "tax_year": "2024",
+    "fiscal_start": "2024-01-01",
+    "fiscal_end": "2024-12-31",
+    "revenue": 500000000000,
+    "taxable_income": 80000000000,
+    "computed_tax": 17400000000,
+    "paid_tax": 17400000000,
+    "founding_date": "1990-03-01",
+    "venture_yn": false,
+    "rd_dept_yn": true,
+    "claim_reason": "R&D 세액공제 경정청구 (일반연구·인력개발)",
+    "sincerity_target": false,
+    "bookkeeping_type": null
+  },
+  "employees": [
+    {
+      "year_type": "CURRENT",
+      "total_regular": 2500.0,
+      "youth_count": 500,
+      "disabled_count": 30,
+      "aged_count": 100,
+      "career_break_count": 20,
+      "north_defector_count": 0,
+      "general_count": 1850,
+      "excluded_count": 80,
+      "total_salary": 250000000000,
+      "social_insurance_paid": 25000000000,
+      "req_id": "TCCORP05"
+    },
+    {
+      "year_type": "PREVIOUS",
+      "total_regular": 2450.0,
+      "youth_count": 480,
+      "disabled_count": 28,
+      "aged_count": 98,
+      "career_break_count": 18,
+      "north_defector_count": 0,
+      "general_count": 1826,
+      "excluded_count": 75,
+      "total_salary": 240000000000,
+      "social_insurance_paid": 24000000000,
+      "req_id": "TCCORP05"
+    }
+  ],
+  "deductions": [
+    {
+      "item_category": "RD",
+      "provision": "조특법10",
+      "tax_year": "2024",
+      "item_seq": 1,
+      "base_amount": 30000000000,
+      "zone_type": null,
+      "asset_type": null,
+      "rd_type": "GENERAL",
+      "method": "CURRENT",
+      "existing_applied": true,
+      "existing_amount": 500000000,
+      "carryforward_balance": 0,
+      "req_id": "TCCORP05"
+    }
+  ],
+  "financial": {
+    "req_id": "TCCORP05",
+    "biz_income": null,
+    "non_taxable_income": 2000000000,
+    "loss_carryforward_total": 0,
+    "interim_prepaid_tax": 8000000000,
+    "withholding_tax": 500000000,
+    "determined_tax": 17400000000,
+    "dividend_income_total": 3000000000,
+    "foreign_tax_total": 200000000,
+    "foreign_income_total": 5000000000
+  }
+}
