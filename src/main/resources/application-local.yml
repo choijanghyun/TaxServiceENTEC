@@ -1,0 +1,39 @@
+# ==============================================================
+# ENTEC Tax Refund Service - Local Profile
+# ==============================================================
+
+spring:
+  # ----- DataSource (H2 In-Memory) -----
+  datasource:
+    url: jdbc:h2:mem:tax_refund;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=MySQL
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  # ----- JPA / Hibernate (override for local) -----
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  # ----- H2 Console -----
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: false
+
+# ==============================================================
+# Logging (override for local)
+# ==============================================================
+logging:
+  level:
+    root: INFO
+    com.entec.tax: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE

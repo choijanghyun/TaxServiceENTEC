@@ -1,0 +1,81 @@
+# ==============================================================
+# ENTEC Tax Refund Service - Main Configuration
+# ==============================================================
+
+server:
+  port: 8080
+
+# ==============================================================
+# Spring Configuration
+# ==============================================================
+spring:
+  profiles:
+    active: local
+
+  # ----- DataSource (MySQL) -----
+  datasource:
+    url: jdbc:mysql://localhost:3306/tax_refund?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+      idle-timeout: 30000
+      connection-timeout: 30000
+      max-lifetime: 1800000
+
+  # ----- JPA / Hibernate -----
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        default_batch_fetch_size: 100
+    open-in-view: false
+
+  # ----- Jackson -----
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    deserialization:
+      fail-on-unknown-properties: false
+    default-property-inclusion: non_null
+
+# ==============================================================
+# MyBatis Configuration
+# ==============================================================
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package: com.entec.tax.domain
+  configuration:
+    map-underscore-to-camel-case: true
+    default-fetch-size: 100
+    default-statement-timeout: 30
+
+# ==============================================================
+# Logging Configuration
+# ==============================================================
+logging:
+  level:
+    root: INFO
+    com.entec.tax: DEBUG
+    org.springframework: INFO
+    org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.mybatis: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{60} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{60} - %msg%n"
+
+# ==============================================================
+# Tax Service Custom Properties
+# ==============================================================
+tax-service:
+  max-json-size: 10485760
+  combo-search-timeout: 120
+  tx1-timeout: 60
+  tx2-timeout: 300
